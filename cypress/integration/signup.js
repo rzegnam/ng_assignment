@@ -8,8 +8,11 @@ describe("Checks the signup form", () => {
     cy.get("h1").contains("Let's get started");
 
     cy.contains("Sign up for free").click();
-    cy.contains("Please enter a valid email address");
-    cy.contains("A password is required");
+    cy.get(".signup__form-wrap")
+      .should("contain", "Please enter a valid email address")
+      .and("contain", "A password is required");
+    // cy.contains("Please enter a valid email address");
+    // cy.contains("A password is required");
 
     cy.get("input[name=email-address]")
       .type(fakeEmail)
