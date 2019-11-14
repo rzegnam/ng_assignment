@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://toggl.com",
+    "fakeEmail": "fake@email.com",
+    "fakePassword": "fakepassword",
+    "badEmail": "mail@",
+    "worstEmail": "mail@o2",
+    "theWorstEmail": "@o2.pl"
+}
