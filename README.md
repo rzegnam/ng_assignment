@@ -1,5 +1,7 @@
 # Project
 
+### Test file is located in cypress/integration/signup.js
+
 Two test scenarios automated with Cypress:
 
 - TS2 Mandatory fields are required
@@ -20,13 +22,13 @@ yarn or npm
 Install Cypress via yarn:
 
 ```
-yarn add cypress --dev
+yarn install
 ```
 
 Install Cypress via npm:
 
 ```
-npm install cypress --save-dev
+npm install
 ```
 
 ## Running the tests
